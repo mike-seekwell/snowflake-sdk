@@ -1,18 +1,10 @@
-# Node.js driver for Snowflake 
+fork of official snowflake SDK to fix date issue:
 
-[![NPM](https://nodei.co/npm/snowflake-sdk.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/snowflake-sdk/)
+// var Moment = require('moment');
+// require('moment-timezone');
+var Moment = require('moment-timezone');
 
-[![npm version](https://badge.fury.io/js/snowflake-sdk.svg)](https://badge.fury.io/js/snowflake-sdk)
-
-The official Node.js driver for Snowflake.
-
-## Installing
-
-To install the driver, go to your project directory and type the following:
-
-```sh
-npm install snowflake-sdk
-```
+https://snowflakecommunity.force.com/s/question/0D50Z000088BUwvSAG/typeerror-momenttz-is-not-a-function-at-new-sftimestamp
 
 ## Usage and Getting Started
 
