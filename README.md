@@ -1,7 +1,9 @@
 fork of official snowflake SDK to fix date issue:
 
 // var Moment = require('moment');
+
 // require('moment-timezone');
+
 var Moment = require('moment-timezone');
 
 https://snowflakecommunity.force.com/s/question/0D50Z000088BUwvSAG/typeerror-momenttz-is-not-a-function-at-new-sftimestamp
